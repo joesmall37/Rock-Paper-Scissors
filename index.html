@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <header>
+        <h1> Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge"></div>
+        <div id="computer-label" class="badge"></div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="https://images.pexels.com/photos/1093207/pexels-photo-1093207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="paper">
+        </div>
+        <div class="choice"id="s">
+            <img src="https://images.pexels.com/photos/4226896/pexels-photo-4226896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="scissor">
+        </div>
+
+        <p id="action-message">
+            Choose rock paper or scissors!
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
